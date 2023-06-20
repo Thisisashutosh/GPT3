@@ -15,9 +15,9 @@ const Header = () => {
           <input
             type="text"
             placeholder="Your Email Address"
-            className="p-3 pr-28 bg-cyan-950 outline-none border-none text-cyan-800 rounded rounded-r-none placeholder-cyan-800"
+            className="p-3 pr-28 bg-cyan-950 outline-none border-none text-cyan-400 rounded rounded-r-none placeholder-cyan-400"
           />
-          <button className="headerContactButton bg-orange-600 p-3 rounded-l-none pr-7 pl-7 rounded text-white">
+          <button className="headerContactButton hover:scale-110 duration-300 bg-orange-600 p-3 rounded-l-none pr-7 pl-7 rounded text-white">
             Get Started
           </button>
         </div>

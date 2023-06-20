@@ -14,10 +14,10 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbarButtons ">
-          <button className="signinButton p-2 pr-7 pl-7 rounded">
+          <button className="signinButton hover:scale-110 duration-300 p-2 pr-7 pl-7 rounded">
             Sign in
           </button>
-          <button className="signupButton bg-orange-600 p-2 pr-7 pl-7 rounded">
+          <button className="signupButton hover:scale-110 duration-300 bg-orange-600 p-2 pr-7 pl-7 rounded">
             Sign up
           </button>
         </div>

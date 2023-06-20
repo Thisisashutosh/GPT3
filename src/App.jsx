@@ -2,7 +2,7 @@ import Navbar from "./components/navbar/Navbar.jsx";
 import Brand from "./components/brand/Brand.jsx";
 import Header from "./containers/Header/Header.jsx";
 import WhatGPT3 from "./containers/whatGPT3/WhatGPT3.jsx";
-import Features from "./containers/features/Features.jsx";
+import Feature from "./components/feature/Feature.jsx"
 import Possibility from "./containers/possibility/Possibility.jsx";
 import Cta from "./components/cta/Cta.jsx";
 import Blog from "./containers/blog/Blog.jsx";
@@ -19,7 +19,7 @@ function App() {
         </div>
         <Brand />
         <WhatGPT3 />
-        <Features />
+        <Feature />
         <Possibility />
         <Cta />
         <Blog />
